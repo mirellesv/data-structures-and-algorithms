@@ -12,15 +12,15 @@ class Node{
     Node(){
         key = 0;
         data = 0;
-        next = NULL;
-        previous = NULL;
+        next = nullptr;
+        previous = nullptr;
     }
 
     Node(int k, int d){
         key = k;
         data = d;
-        next = NULL;
-        previous = NULL;
+        next = nullptr;
+        previous = nullptr;
     }
 };
 
@@ -29,7 +29,7 @@ class DoublyLinkedList{
         Node* head;
 
     DoublyLinkedList(){
-        head = NULL;
+        head = nullptr;
     }
 
     DoublyLinkedList(Node *new_node){
